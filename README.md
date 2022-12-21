@@ -7,6 +7,11 @@ ___
 
 - Файл находится на уровне клиента с 18 поведенческими переменными.
 
+___
 # Сылка на защиту проекта
 
-- [Ютуб](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Ютуб](https://www.youtube.com/)
+
+___
+#Streamlit
+- [App](https://f4nnur-da-exam-3c1s-akhmetov-gaifullin-app-5d5b5x.streamlit.app/)
