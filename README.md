@@ -10,7 +10,7 @@ ___
 ___
 # Сылка на защиту проекта
 
-- [Ютуб](https://www.youtube.com/)
+- [Ютуб](https://www.youtube.com/playlist?list=PLFaOl60nvK835is9Cf5OWceVTYlswddM1)
 
 ___
 #Streamlit
