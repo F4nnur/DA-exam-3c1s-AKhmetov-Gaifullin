@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "da-exam"
+version = "0.1.0"
+description = ""
+authors = ["Fannur <Fann1kF@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "da_exam"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.16.0"
+sklearn = "^0.0.post1"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
