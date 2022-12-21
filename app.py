@@ -152,7 +152,7 @@ plt.title('Birch Clustering with 5 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 data_p = pd.DataFrame(PCA(n_components = 2).fit_transform(imputed_data))
@@ -172,7 +172,7 @@ plt.title('Birch Clustering with 6 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 st.markdown("""---""")
@@ -196,7 +196,7 @@ plt.title('KMeans Clustering with 5 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 data_p = pd.DataFrame(PCA(n_components = 2).fit_transform(imputed_data))
@@ -216,7 +216,7 @@ plt.title('KMeans Clustering with 6 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 st.markdown("""---""")
@@ -240,7 +240,7 @@ plt.title('Agglomerative Hierarchical Clustering with 5 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 data_p = pd.DataFrame(PCA(n_components = 2).fit_transform(imputed_data))
@@ -260,7 +260,7 @@ plt.title('Agglomerative Hierarchical Clustering with 6 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 st.markdown("""---""")
@@ -284,7 +284,7 @@ plt.title('Gaussian Mixture Clustering with 5 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 
@@ -305,7 +305,7 @@ plt.title('Gaussian Mixture Clustering with 6 Clusters')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 
-st.pyplot()
+st.pyplot(plt)
 plt.clf()
 
 st.markdown("""---""")
