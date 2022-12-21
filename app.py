@@ -18,7 +18,12 @@ from sklearn.metrics import silhouette_samples, silhouette_score
 
 st.set_page_config(page_title='Dasboard', page_icon=':bar_chart:', layout='wide')
 
-data_frame = pd.read_csv("CC GENERAL.csv")
+@st.cache(allow_output_mutation=True)
+def load_data(dataframe):
+    data = pd.read_csv(dataframe)
+    return data
+
+data_frame = load_data("CC GENERAL.csv")
 
 st.title(":bar_chart:  Credit Card Dataset for Clustering")
 st.dataframe(data_frame)
